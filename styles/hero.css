@@ -1,0 +1,69 @@
+@import url(variables.css);
+#Hero {
+    height: 90dvh;
+    width: 740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    margin: 0 auto;
+}
+#Hero h1 {
+    font-family: var(--PRINCIPAL);
+    font-weight: 400;
+    font-size: 48pt;
+    margin-bottom: -10px;
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+}
+#Hero h1 span {color: var(--NARANJA_SUAVE);}
+#Hero label {
+    width: fit-content;
+    font-weight: 500;
+    font-size: 18pt;
+    color: white;
+    background-color: var(--NARANJA_FUERTE);
+    border-radius: 9999em;
+    padding: 10px 20px;
+}
+#Hero h1 svg {
+    color: var(--NARANJA_FUERTE);
+    height: 60px;
+    width: auto;
+}
+#hero p {text-align: justify;}
+#Hero #hero-redes {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    margin-top: 2em;
+}
+#Hero #hero-redes svg {
+    color: var(--NARANJA_SUAVE);
+    height: 50px;
+    width: auto;
+    transition: color 0.4s ease;
+}
+#Hero #hero-redes svg:hover {color: var(--NARANJA_FUERTE);}
+
+@media screen and (max-width: 768px) {
+    #Hero {
+        width: 100%;
+        padding: 1em;
+    }
+    #Hero h1 {
+        font-size: 36pt;
+    }
+    #Hero h1 svg {
+        height: 40px;
+    }
+    #Hero label {
+        font-size: 16pt;
+        padding: 8px 16px;
+    }
+    #Hero #hero-redes svg {
+        height: 40px;
+    }
+    
+}

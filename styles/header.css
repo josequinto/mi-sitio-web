@@ -1,0 +1,74 @@
+@import url(variables.css);
+
+header {
+    display: flex;
+    gap: 1.5em;
+    justify-content: end;
+    align-items: center;
+    height: 10dvh;
+    width: 100%;
+}
+header a {
+    position: relative;
+    color: var(--AZUL);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14pt;
+    padding: 5px 10px;
+}
+header a::after {
+    content: "_____";
+    position: absolute;
+    top: 10pt;
+    left: 0;
+    height: 4px;
+    color: var(--AZUL_CLARO);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+header a:hover::after {
+    transform: scaleX(1);
+}
+
+#menu-button {
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    header {
+        position: absolute;
+        top: 0;
+        right: 0;
+        flex-direction: column;
+        justify-content: start;
+        gap: 10em;
+        width: 20dvw;
+        height: 100dvh;
+    }
+    #menu {
+        display: none;
+        transition: all 0.3s ease;
+    }      
+    #menu.visible {
+        display: inherit;
+        flex-direction: column;
+        gap: 1em;
+    }    
+    #menu-button {
+        display: block;
+        margin-top: 20px;
+        color: var(--NARANJA_SUAVE);
+    }
+    #menu-button svg {
+        height: 30px;
+        width: auto;
+        transition: color 0.4s ease;
+        background-color: whitesmoke;
+    }
+    #menu-button:hover {
+        cursor: pointer;
+        color: var(--NARANJA_FUERTE);
+    }
+    
+}

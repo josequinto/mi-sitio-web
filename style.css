@@ -1,0 +1,60 @@
+@import url(variables.css);
+
+@import url(styles/header.css);
+@import url(styles/hero.css);
+@import url(styles/proyectos.css);
+@import url(styles/tecnologias.css);
+@import url(styles/contacto.css);
+
+html {
+    scroll-behavior: smooth;
+    font-family: var(--SECUNDARIA);
+}
+body {
+    background-color: whitesmoke;
+    color: var(--AZUL);
+}
+main {
+    margin: 0 10dvw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+section {
+    margin-bottom: 4em;
+}
+h2 {
+    font-family: var(--PRINCIPAL);
+    font-size: 36pt;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
+    height: 10dvh;
+    border-top: solid 1px gainsboro;
+    margin-top: 4em;
+}
+footer p {
+    font-weight: 200;
+    color: gray;
+}
+footer a {
+    text-decoration: none;
+    color: var(--NARANJA_FUERTE);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+footer a svg {
+    color: var(--NARANJA_SUAVE);
+    height: 16pt;
+    width: auto;
+    transition: color 0.4s ease;
+}

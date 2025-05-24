@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    /* Colors */
+    --AZUL: #023047;
+    --AZUL_CLARO: #8ECAE6;
+    --AZUL_CLARO2: #219EBC;
+    --NARANJA_SUAVE: #FFB703;
+    --NARANJA_FUERTE: #FB8500;
+    /* Fuentes */
+    --PRINCIPAL: "Cal Sans", sans-serif;
+    --SECUNDARIA: "Inter", sans-serif;
+}
+/* 
+https://coolors.co/palette/8ecae6-219ebc-023047-ffb703-fb8500 */

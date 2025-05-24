@@ -1,0 +1,13 @@
+#Tecnologias h2{
+    color: var(--AZUL_CLARO2);
+}
+#Tecnologias h2 svg {
+    color: var(--AZUL_CLARO2);
+    height: 28pt;
+    width: auto;
+}
+#Tecnologias svg {
+    color: var(--AZUL_CLARO);
+    width: auto;
+    height: 5vw;
+}

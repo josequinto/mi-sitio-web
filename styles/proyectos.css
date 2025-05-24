@@ -1,0 +1,29 @@
+#Proyectos h2 {
+    color: black;
+}
+#Proyectos h2 svg {
+    height: 28pt;
+    width: auto;
+}
+#Proyectos div {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+.proyecto {
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+    padding: 1em;
+}
+#Proyectos div .proyecto:first-child {
+    background-color: #a7c957;
+}
+#Proyectos div .proyecto:nth-child(2) {
+    background-color: #ffe5d9;
+}
+#Proyectos div .proyecto:nth-child(3) {
+    background-color: black;
+    color: white;
+}
