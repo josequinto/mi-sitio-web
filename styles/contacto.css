@@ -45,7 +45,7 @@ form textarea:focus {
 
 button[type="submit"] {
     background-color: var(--NARANJA_SUAVE, orange);
-    color: var(--blanco);
+    color: white;
     border: none;
     padding: 0.75rem 1.5rem;
     border-radius: 2rem;

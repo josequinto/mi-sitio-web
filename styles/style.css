@@ -53,7 +53,7 @@ footer a {
     gap: 5px;
 }
 footer a svg {
-    color: var(--NARANJA_SUAVE, orange;
+    color: var(--NARANJA_SUAVE, orange);
     height: 16pt;
     width: auto;
     transition: color 0.4s ease;
