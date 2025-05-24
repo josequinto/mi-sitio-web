@@ -1,10 +1,10 @@
 @import url(variables.css);
 
-@import url(styles/header.css);
-@import url(styles/hero.css);
-@import url(styles/proyectos.css);
-@import url(styles/tecnologias.css);
-@import url(styles/contacto.css);
+@import url(header.css);
+@import url(hero.css);
+@import url(proyectos.css);
+@import url(tecnologias.css);
+@import url(contacto.css);
 
 html {
     scroll-behavior: smooth;
