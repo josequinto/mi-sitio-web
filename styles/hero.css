@@ -9,7 +9,7 @@
     margin: 0 auto;
 }
 #Hero h1 {
-    font-family: var(--PRINCIPAL);
+    font-family: var(--PRINCIPAL, Geneva);
     font-weight: 400;
     font-size: 48pt;
     margin-bottom: -10px;
@@ -17,18 +17,18 @@
     align-items: center;
     gap: 0.2em;
 }
-#Hero h1 span {color: var(--NARANJA_SUAVE);}
+#Hero h1 span {color: var(--NARANJA_SUAVE, orange);}
 #Hero label {
     width: fit-content;
     font-weight: 500;
     font-size: 18pt;
     color: white;
-    background-color: var(--NARANJA_FUERTE);
+    background-color: var(--NARANJA_FUERTE, orangered);
     border-radius: 9999em;
     padding: 10px 20px;
 }
 #Hero h1 svg {
-    color: var(--NARANJA_FUERTE);
+    color: var(--NARANJA_FUERTE, orangered);
     height: 60px;
     width: auto;
 }
@@ -40,12 +40,12 @@
     margin-top: 2em;
 }
 #Hero #hero-redes svg {
-    color: var(--NARANJA_SUAVE);
+    color: var(--NARANJA_SUAVE, orange);
     height: 50px;
     width: auto;
     transition: color 0.4s ease;
 }
-#Hero #hero-redes svg:hover {color: var(--NARANJA_FUERTE);}
+#Hero #hero-redes svg:hover {color: var(--NARANJA_FUERTE, orangered);}
 
 @media screen and (max-width: 768px) {
     #Hero {

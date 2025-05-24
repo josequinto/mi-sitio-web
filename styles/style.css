@@ -8,11 +8,11 @@
 
 html {
     scroll-behavior: smooth;
-    font-family: var(--SECUNDARIA);
+    font-family: var(--SECUNDARIA, arial);
 }
 body {
     background-color: whitesmoke;
-    color: var(--AZUL);
+    color: var(--AZUL, blue);
 }
 main {
     margin: 0 10dvw;
@@ -24,7 +24,7 @@ section {
     margin-bottom: 4em;
 }
 h2 {
-    font-family: var(--PRINCIPAL);
+    font-family: var(--PRINCIPAL, Geneva);
     font-size: 36pt;
     font-weight: 400;
     display: flex;
@@ -46,14 +46,14 @@ footer p {
 }
 footer a {
     text-decoration: none;
-    color: var(--NARANJA_FUERTE);
+    color: var(--NARANJA_FUERTE, orangered);
     font-weight: 600;
     display: flex;
     align-items: center;
     gap: 5px;
 }
 footer a svg {
-    color: var(--NARANJA_SUAVE);
+    color: var(--NARANJA_SUAVE, orange;
     height: 16pt;
     width: auto;
     transition: color 0.4s ease;

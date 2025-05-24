@@ -10,7 +10,7 @@ header {
 }
 header a {
     position: relative;
-    color: var(--AZUL);
+    color: var(--AZUL, blue);
     text-decoration: none;
     font-weight: 400;
     font-size: 14pt;
@@ -22,7 +22,7 @@ header a::after {
     top: 10pt;
     left: 0;
     height: 4px;
-    color: var(--AZUL_CLARO);
+    color: var(--AZUL_CLARO, lightblue);
     transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.3s ease-in-out;
@@ -58,7 +58,7 @@ header a:hover::after {
     #menu-button {
         display: block;
         margin-top: 20px;
-        color: var(--NARANJA_SUAVE);
+        color: var(--NARANJA_SUAVE, lightsalmon);
     }
     #menu-button svg {
         height: 30px;
@@ -68,7 +68,7 @@ header a:hover::after {
     }
     #menu-button:hover {
         cursor: pointer;
-        color: var(--NARANJA_FUERTE);
+        color: var(--NARANJA_FUERTE, orangered);
     }
     
 }
